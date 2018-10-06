@@ -1,0 +1,9 @@
+.scrum-master-row {
+    display: flex;
+}
+
+.scrum-master-skill {
+    min-width: 200px;
+    text-align: center;
+    margin: 0 2px; 
+}

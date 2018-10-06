@@ -1,0 +1,9 @@
+<div class="scrum-master-row">
+  <div class="scrum-master-skill">
+    {{scrumMaster.name}}
+  </div>
+  <div class="scrum-master-skill" *ngFor="let skill of skillsList">
+    Goal: {{scrumMaster.skills[skill].goal}}
+    Score: {{scrumMaster.skills[skill].score}}
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+}
+
+.skill-header {
+    min-width: 200px;
+    text-align: center;
+    margin: 0 2px;
+    background-color: lightblue; 
+}
