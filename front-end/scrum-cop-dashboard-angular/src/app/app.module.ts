@@ -7,6 +7,8 @@ import { MatrixRowComponent } from './matrix-row/matrix-row.component';
 import { MatrixBodyComponent } from './matrix-body/matrix-body.component';
 import { SkillSquareComponent } from './skill-square/skill-square.component';
 import { DashboardViewComponent } from './dashboard-view/dashboard-view.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ScrumMasterViewComponent } from './scrum-master-view/scrum-master-view.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { DashboardViewComponent } from './dashboard-view/dashboard-view.componen
     MatrixRowComponent,
     MatrixBodyComponent,
     SkillSquareComponent,
-    DashboardViewComponent
+    DashboardViewComponent,
+    ScrumMasterViewComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
