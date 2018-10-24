@@ -7,32 +7,32 @@ export const MOCK_SM_SKILLS: ScrumMaster[] = [
             "Backlog Grooming": {
                 "score": 2,
                 "goal": 3,
-                "focus": true
+                "focus": false
             },
             "Sprint Planning": {
                 "score": 3,
                 "goal": 3,
-                "focus": true
+                "focus": false
             },
             "Retrospective": {
                 "score": 4,
                 "goal": 4,
-                "focus": true
+                "focus": false
             },
             "Sprint Review": {
-                "score": 3,
+                "score": 1,
                 "goal": 4,
                 "focus": true
             },
             "Daily Standups": {
                 "score": 2,
                 "goal": 3,
-                "focus": true
+                "focus": false
             },
             "Quarterly Planning": {
                 "score": 2,
                 "goal": 3,
-                "focus": true
+                "focus": false
             },
             "Agile Time Reporting": {
                 "score": 2,
@@ -51,33 +51,33 @@ export const MOCK_SM_SKILLS: ScrumMaster[] = [
             },
             "Sprint Planning": {
                 "score": 3,
-                "goal": 3,
-                "focus": true
+                "goal": 4,
+                "focus": false
             },
             "Retrospective": {
                 "score": 4,
                 "goal": 4,
-                "focus": true
+                "focus": false
             },
             "Sprint Review": {
                 "score": 3,
-                "goal": 4,
-                "focus": true
+                "goal": 2,
+                "focus": false
             },
             "Daily Standups": {
                 "score": 2,
                 "goal": 3,
-                "focus": true
+                "focus": false
             },
             "Quarterly Planning": {
                 "score": 2,
                 "goal": 1,
-                "focus": true
+                "focus": false
             },
             "Agile Time Reporting": {
                 "score": 2,
                 "goal": 3,
-                "focus": true
+                "focus": false
             }
         }
     }

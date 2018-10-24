@@ -1,0 +1,60 @@
+.skill-square {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.skill-square .goal, .skill-square .score, .skill-square .grid-block {
+    position: absolute;
+}
+
+.grid-block {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+}
+
+.grid-block-2 {
+    margin-left: 25px;  
+}
+
+.grid-block-3 {
+    margin-left: 25px;
+    margin-top: 25px; 
+}
+.grid-block-4 {
+    margin-top: 25px;  
+}
+
+.grid-block-1,
+.grid-block-2,
+.grid-block-3,
+.grid-block-4 {
+    background-color: white; 
+}
+
+.goal-1 .grid-block-1,
+.goal-2 .grid-block-1,
+.goal-2 .grid-block-2,
+.goal-3 .grid-block-1,
+.goal-3 .grid-block-2,
+.goal-3 .grid-block-3,
+.goal-4 .grid-block-1,
+.goal-4 .grid-block-2,
+.goal-4 .grid-block-3,
+.goal-4 .grid-block-4 {
+    background-color: red;
+}
+
+.score-1 .grid-block-1,
+.score-2 .grid-block-1,
+.score-2 .grid-block-2,
+.score-3 .grid-block-1,
+.score-3 .grid-block-2,
+.score-3 .grid-block-3,
+.score-4 .grid-block-1,
+.score-4 .grid-block-2,
+.score-4 .grid-block-3,
+.score-4 .grid-block-4 {
+    background-color: green;
+}
