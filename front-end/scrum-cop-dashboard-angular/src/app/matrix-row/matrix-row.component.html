@@ -2,9 +2,5 @@
   <div class="scrum-master-name">
     {{scrumMaster.name}}
   </div>
-  <div class="focus-{{scrumMaster.skills[skill].focus}}" *ngFor="let skill of skillsList">
-    <div class="scrum-master-skill">
-      <app-skill-square [skill]="scrumMaster.skills[skill]"></app-skill-square>
-    </div>
-  </div>
+  <app-skill-square *ngFor="let skill of skillsList" [skill]="scrumMaster.skills[skill]"></app-skill-square>
 </div>
